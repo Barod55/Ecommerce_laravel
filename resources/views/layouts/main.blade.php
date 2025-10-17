@@ -33,7 +33,7 @@
 
 </head>
 <body>
-	
+
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -41,7 +41,7 @@
         </div>
     </div>
     <!--PreLoader Ends-->
-	
+
 	<!-- header -->
 	<div class="top-header-area" id="sticker">
 		<div class="container">
@@ -61,6 +61,7 @@
 							<ul>
 								<li class="current-list-item"><a href="/">Home</a>
 								</li>
+                                <li><a href="/products">Products</a></li>
 								<li><a href="/about">About</a></li>
 								<li><a href="#">Pages</a>
 									<ul class="sub-menu">
@@ -105,7 +106,7 @@
 		</div>
 	</div>
 	<!-- end header -->
-	
+
 
 
 
@@ -161,7 +162,7 @@
 		</div>
 	</div>
 	<!-- end footer -->
-	
+
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -186,7 +187,7 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-	
+
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->

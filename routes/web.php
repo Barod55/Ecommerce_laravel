@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $results = DB::table('categories')->get();
+    return view('home', ['categories' => $results]);
 })->name('home');
 
 Route::get('/about', function () {
@@ -58,3 +60,7 @@ Route::get('/single_product', function () {
 })->name('single_product');
 
 
+Route::get('/products', function () {
+    $resutls = DB::table('products')->get();
+    return view('products',['products' => $resutls]);
+})->name('products');
